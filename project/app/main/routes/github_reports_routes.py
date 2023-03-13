@@ -13,9 +13,6 @@ from app.domain.usecases import (
 
 from app.main.routes.helpers import InternalServerError
 
-@app.get("/teste/{id}")
-def read_main():
-    return {"msg": "Hello World"}
 
 @app.get(
     '/github/get/{username}',
