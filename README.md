@@ -1,5 +1,5 @@
 # Teste Técnico Topaz
-Projeto criado com o objetivo de criar um script, neste caso um endpoint em que é possível agrupar e exibir as principais informações de um usuário do github em JSON e .txt.
+Projeto criado com o objetivo de criar um script, neste caso um endpoint em que é possível agrupar e exibir as principais informações de um usuário do github em JSON e .txt. Apesar de ser um projeto robusto para um objetivo a princípio simples, decidi desenvolver a solução desta forma, pois o projeto possui uma ótima escalabilidade.
 
 ---
 ## Requisitos
