@@ -40,7 +40,7 @@ class GetGithubUserReports(GetGithubUserReportsContract):
         github_user_report = GetGithubUserReportsResponse(
                 name=name,
                 profile=user_basic_data['html_url'],
-                public_repositories=len(repositories_data),
+                public_repositories=user_basic_data['public_repos'],
                 followers=user_basic_data['followers'],
                 following=user_basic_data['following'],
                 repositories=repositories_data
