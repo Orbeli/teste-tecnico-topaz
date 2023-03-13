@@ -1,0 +1,1 @@
+from .github_user_reports_writer import generate_report_file

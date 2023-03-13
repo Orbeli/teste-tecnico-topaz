@@ -1,0 +1,17 @@
+Nome: Gabriel Orbeli
+Perfil: https://github.com/Orbeli
+Número de repositórios públicos: 11
+Número de seguidores: 11
+Número de usuários seguidos: 10
+repositórios:
+	 curso-python3-parte1: https://github.com/Orbeli/curso-python3-parte1
+	 curso-python3-parte2: https://github.com/Orbeli/curso-python3-parte2
+	 desafio-paschoalotto: https://github.com/Orbeli/desafio-paschoalotto
+	 diocese-bauru: https://github.com/Orbeli/diocese-bauru
+	 flask-api: https://github.com/Orbeli/flask-api
+	 opencv: https://github.com/Orbeli/opencv
+	 P1-LP3: https://github.com/Orbeli/P1-LP3
+	 projeto-computa-o-libras: https://github.com/Orbeli/projeto-computa-o-libras
+	 projeto-copos: https://github.com/Orbeli/projeto-copos
+	 projeto-sinais: https://github.com/Orbeli/projeto-sinais
+	 retinoblastoma-analysis: https://github.com/Orbeli/retinoblastoma-analysis

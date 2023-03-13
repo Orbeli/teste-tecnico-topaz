@@ -1,0 +1,63 @@
+# Teste Técnico Topaz
+Projeto criado com o objetivo de criar um script, neste um endpoint em que é possível agrupar e exibir as principais informações de um usuário do github em JSON e .txt.
+
+---
+## Requisitos
+1) Python 3.9.x ou superior
+
+---
+A pode ser feita com Docker para isso:
+1) Criar a *.venv*: 
+```
+    renomear o arquivo .env.example para .env
+```
+2) Rodar o comando:
+```
+    docker-compose up --build
+```
+3) Pronto, o projeto já está rodando em seu localhost porta 8004, para ver as docs acesse:
+```
+    http://localhost:8004/docs
+```
+
+---
+## Start
+Após instalado:
+1) O projeto pode ser startado novamente através do comando:
+```
+    docker-compose up
+```
+
+---
+## Testes
+Com o container rodando:
+1) utilizar o comando para executar os testes:
+```
+    docker exec -it teste_topaz pytest -v
+```
+Executando o projeto sem o container:
+1) utilizar o comando para executar os testes:
+```
+    pytest -v
+```
+
+---
+## Exemplos de Uso
+Exemplos de uso com cURL:
+1) Para gerar o relatório de um usuário:
+```
+    curl --location 'http://localhost:8004/github/get/{USUARIO}'
+```
+Este endpoint vai retornar um json com os principais dados do usuário e gerar o arquivo {USUARIO}.txt na pasta project\app\github_reports_file
+ 
+---
+## Links
+[GitHub](https://github.com/Orbeli/flask-api) - GitHub do projeto  
+
+---
+## Autor
+Gabriel Orbeli Rodrigues Belíssimo
+
+[E-mail](mailto:gabriel.orbeli@gmail.com)
+[GitHub](https://github.com/Orbeli)
+[Linkedin](https://www.linkedin.com/in/gabriel-orbeli-436815171/)
