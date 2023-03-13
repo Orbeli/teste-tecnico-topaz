@@ -32,9 +32,13 @@ class GetGithubUserReports(GetGithubUserReportsContract):
             )
 
         repositories_data = self.get_repositories(user_basic_data['repos_url'])
+        
+        name = user_basic_data['name']
+        if not user_basic_data['name']:
+            name = user_basic_data['login']
 
         github_user_report = GetGithubUserReportsResponse(
-                name=user_basic_data['name'],
+                name=name,
                 profile=user_basic_data['html_url'],
                 public_repositories=len(repositories_data),
                 followers=user_basic_data['followers'],
