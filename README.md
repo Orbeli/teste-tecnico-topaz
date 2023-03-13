@@ -1,12 +1,12 @@
 # Teste Técnico Topaz
-Projeto criado com o objetivo de criar um script, neste um endpoint em que é possível agrupar e exibir as principais informações de um usuário do github em JSON e .txt.
+Projeto criado com o objetivo de criar um script, neste caso um endpoint em que é possível agrupar e exibir as principais informações de um usuário do github em JSON e .txt.
 
 ---
 ## Requisitos
 1) Python 3.9.x ou superior
 
 ---
-A pode ser feita com Docker para isso:
+A instalção pode ser feita com Docker para isso:
 1) Criar a *.venv*: 
 ```
     renomear o arquivo .env.example para .env
