@@ -7,15 +7,19 @@ Projeto criado com o objetivo de criar um script, neste caso um endpoint em que 
 
 ---
 A instalção pode ser feita com Docker para isso:
-1) Criar a *.venv*: 
+1) Criar a *.venv*:
+```
+    python3 -m venv .venv
+```
+2) Configura variáveis de ambiente
 ```
     renomear o arquivo .env.example para .env
 ```
-2) Rodar o comando:
+3) Rodar o comando:
 ```
     docker-compose up --build
 ```
-3) Pronto, o projeto já está rodando em seu localhost porta 8004, para ver as docs acesse:
+4) Pronto, o projeto já está rodando em seu localhost porta 8004, para ver as docs acesse:
 ```
     http://localhost:8004/docs
 ```
@@ -35,7 +39,7 @@ Com o container rodando:
 ```
     docker exec -it teste_topaz pytest -v
 ```
-Executando o projeto sem o container:
+Para executar os testes unitários do projeto:
 1) utilizar o comando para executar os testes:
 ```
     pytest -v
